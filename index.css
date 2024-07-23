@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.theme-buttons {
+    margin-bottom: 20px;
+}
+
+.red-theme aside {
+    background-color: #ffdddd;
+}
+
+.red-theme main {
+    background-color: #ffcccc;
+}
+
+.blue-theme aside {
+    background-color: #ddeeff;
+}
+
+.blue-theme main {
+    background-color: #cceeff;
+}
+
+.green-theme aside {
+    background-color: #ddffdd;
+}
+
+.green-theme main {
+    background-color: #ccffcc;
+}
+
+aside {
+    padding: 20px;
+    margin-right: 10px;
+}
+
+main {
+    padding: 20px;
+}

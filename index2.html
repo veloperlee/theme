@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <p class="color">변경되어야 할 부분마다</p>
+        <p class="color">class명에 color를 넣어주면</p>
+        <p class="color">해당 색으로 변경됩니다.</p>
+    </div>
+    <div class="theme-buttons">
+        <button onclick="changeTheme('red')">Red</button>
+        <button onclick="changeTheme('blue')">Blue</button>
+        <button onclick="changeTheme('green')">Green</button>
+    </div>
+</body>
+
+<script>
+    function changeTheme(themeColor) {
+    // .color 클래스를 가진 모든 요소를 선택
+    let colorElements = document.querySelectorAll('.color');
+
+    // 각 요소의 배경색을 변경
+    for (let i = 0; i < colorElements.length; i++) {
+        if (themeColor === 'red') {
+            colorElements[i].style.backgroundColor = '#ffdddd';
+        } else if (themeColor === 'blue') {
+            colorElements[i].style.backgroundColor = '#ddeeff';
+        } else if (themeColor === 'green') {
+            colorElements[i].style.backgroundColor = '#ddffdd';
+        }
+    }
+}
+</script>
+</html>
