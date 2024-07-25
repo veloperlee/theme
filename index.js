@@ -19,6 +19,8 @@ function changeTheme(themeColor) {
             colorElements[i].style.backgroundColor = '#ddeeff';
         } else if (themeColor === 'green') {
             colorElements[i].style.backgroundColor = '#ddffdd';
+        } else if (themeColor === 'grey') {
+            colorElements[i].style.backgroundColor = '#e3e6ed';
         }
     }
 }

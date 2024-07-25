@@ -7,7 +7,7 @@
     <title>Document</title>
 </head>
 <body>
-    <header class="color">
+    <header>
         <img src="" alt="logo">
         <form action="">
             <input type="text">
@@ -18,30 +18,60 @@
         </ul>
     </header>
     <div class="flex">
-        <aside class="menu color">
+        <aside class="menu">
             <ul>
-                <li>메뉴1</li>
-                <li>메뉴2</li> 
-                <li>메뉴3</li>
+                <li class="color">메뉴1</li>
+                <li class="color">메뉴2</li> 
+                <li class="color">메뉴3</li>
             </ul>
         </aside>
         <main>
-            <section class="color">
-                <article>
-                    <p>chart.js 들어갈 예정</p>
-                </article>
-                <article>
-                    <p>chart.js 들어갈 예정</p>
-                </article>
-            </section>
-            <section>
-
-            </section>
+            <div class="div1 graph color">
+                <div class="left">
+                    <section>
+                        <article>
+                            <h2>이정우의 대쉬보드</h2>
+                            <h4>여기는 h4 태그자리입니다.</h4>
+                        </article>
+                        <article>
+                            <p>chart.js 들어갈 곳</p>
+                        </article>
+                    </section>
+                </div>
+                <div class="right">
+                    <div class="card">chart.js 들어갈 곳</div>
+                    <div class="card">chart.js 들어갈 곳</div>
+                    <div class="card">chart.js 들어갈 곳</div>
+                    <div class="card">chart.js 들어갈 곳</div>
+                </div>
+            </div>
+            <div class="div2 news">
+                <section>
+                    <article>
+                        <h3>div2 > section> article 자리</h3>
+                        <h4>여기는 h4 태그자리입니다.</h4>
+                    </article>
+                    
+                </section>
+            </div>
+            <div class="div3">
+                <section>
+                    <h3>div3 > section> article 자리</h3>
+                    <h4>여기는 h4 태그자리입니다.</h4>
+                </section>
+            </div>
+            <div class="div4">
+                <section>
+                    <h3>div4 > section> article 자리</h3>
+                    <h4>여기는 h4 태그자리입니다.</h4>
+                </section>
+            </div>
             <div class="theme-buttons">
-                <p class="color">색깔 바꾸기</p>
+                <!-- <p class="color">색깔 바꾸기</p> -->
                 <button onclick="changeTheme('red')">Red</button>
                 <button onclick="changeTheme('blue')">Blue</button>
                 <button onclick="changeTheme('green')">Green</button>
+                <button onclick="changeTheme('grey')">grey</button>
             </div>
         </main>
     </div>
