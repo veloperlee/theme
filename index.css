@@ -51,11 +51,17 @@ main > div{
     width: 50%;
 }
 
+.left section article:nth-child(1){
+    border-bottom: 1px solid #aaa;
+}
+
 .left section article h2{
     font-size: 32px;
+    margin-bottom: 10px;
 }
 .left section article h4{
     font-size: 16px;
+    margin-bottom: 10px;
 }
 
 .right{
